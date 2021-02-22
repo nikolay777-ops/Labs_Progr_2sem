@@ -17,19 +17,20 @@ int main() {
 	float v1AfterHurt = 0.0f;
 	char h;
 	
-	printf("Введите скорость Чапаева в стоячей воде и скорость реки (в м/с, от 0 до 5, скорость Чапаева должна быть больше): ");
+	printf("Enter Chapaev's speed in still water and the speed of the river ");
+	printf("(in m/s, from 0 to 5, Chapaev's speed should be larger than the river speed): ");
 	
 	while (!scanf("%f %f", &v1, &v2) || v1 <= 0.0f || v1 > 5.0f || v2 > v1 || v2 < 0.0f) {
 		printf("Incorrect input. Please try again\n");
 	}
 	
-	printf("Введите ширину реки (в м, от 10 до 2000): ");
+	printf("Enter the river width (in m, from 10 to 2000): ");
 	
 	while (!scanf("%f", &b) || b < 10.0f || b > 2000.0f) {
 		printf("Incorrect input. Please try again\n");
 	}
 	
-	printf("Хотите ли вы ранить Чапаева в руку в середине реки? (y/n): ");
+	printf("Did Chapaev get physically injured in the middle of the river? (y/n): ");
 	(void)getchar();
 	
 	while(!(h = (char)getchar()) || (h != 'y' && h != 'n')) {
@@ -39,7 +40,7 @@ int main() {
 	hurt = h == 'y';
 	
 	if (hurt) {
-		printf("Какая оказалась скорость Чапаева после ранения? (в м/с, должна быть меньше изначальной) ");
+		printf("Enter Chapaev's speed after the injury (in m/s, has to be less than the initial speed) ");
 		
 		while (!scanf("%f", &v1AfterHurt) || v1AfterHurt < 0.0f || v1AfterHurt > v1) {
 			printf("Incorrect input. Please try again\n");
@@ -49,8 +50,8 @@ int main() {
 	if (!hurt) {
 		alpha = calculateAngle(v1, v2);
 		time = calculateTime(v1, alpha, b);
-		printf("Чапаев должен плыть под углом %f градусов\n", alpha / 3.14 * 180.0);
-		printf("Чапаев переплывёт Урал через %f секунд\n", time);
+		printf("Chapaev should swim at an angle of %f degrees\n", alpha / 3.14 * 180.0);
+		printf("Chapaev will swim across Ural in %f seconds\n", time);
 	} 
 	else {
 		alpha1 = calculateAngle(v1, v2);
@@ -58,8 +59,8 @@ int main() {
 		time1 = calculateTime(v1, alpha1, b / 2);
 		time2 = calculateTime(v1AfterHurt, alpha2, b / 2);
 		
-		printf("Чапаев должен плыть сначала под углом %f градусов, а после ранения %f градусов\n", alpha1 / 3.14 * 180.0, alpha2 / 3.14 * 180.0);
-		printf("Чапаев переплывёт Урал через %f секунд\n", time1 + time2);
+		printf("First, Chapaev should swim at an angle of %f degrees, but after the injury - %f degrees\n", alpha1 / 3.14 * 180.0, alpha2 / 3.14 * 180.0);
+		printf("Chapaev will swim across Ural in %f seconds\n", time1 + time2);
 	}
 	
 	return 0;
