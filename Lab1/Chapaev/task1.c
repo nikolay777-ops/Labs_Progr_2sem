@@ -4,6 +4,10 @@
 
 #include "task1.h"
 
+void clear() {
+	while (getchar() != '\n');
+}
+
 #ifndef TESTING
 
 int main() {
@@ -21,12 +25,14 @@ int main() {
 	printf("(in m/s, from 0 to 5, Chapaev's speed should be larger than the river speed): ");
 	
 	while (!scanf("%f %f", &v1, &v2) || v1 <= 0.0f || v1 > 5.0f || v2 > v1 || v2 < 0.0f) {
+		clear();
 		printf("Incorrect input. Please try again\n");
 	}
 	
 	printf("Enter the river width (in m, from 10 to 2000): ");
 	
 	while (!scanf("%f", &b) || b < 10.0f || b > 2000.0f) {
+		clear();
 		printf("Incorrect input. Please try again\n");
 	}
 	
@@ -34,15 +40,17 @@ int main() {
 	(void)getchar();
 	
 	while(!(h = (char)getchar()) || (h != 'y' && h != 'n')) {
+		clear();
 		printf("Incorrect input. Please try again\n");
 	}
 	
 	hurt = h == 'y';
 	
 	if (hurt) {
-		printf("Enter Chapaev's speed after the injury (in m/s, has to be less than the initial speed) ");
+		printf("Enter Chapaev's speed after the injury (in m/s, has to be less than the initial speed and more than the speed of the river) ");
 		
-		while (!scanf("%f", &v1AfterHurt) || v1AfterHurt < 0.0f || v1AfterHurt > v1) {
+		while (!scanf("%f", &v1AfterHurt) || v1AfterHurt < 0.0f || v1AfterHurt > v1 || v1AfterHurt < v2) {
+			clear();
 			printf("Incorrect input. Please try again\n");
 		}
 	}
