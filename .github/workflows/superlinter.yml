@@ -16,7 +16,7 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Build
         run: |
-          cd ../2_2_6/
+          cd ../../2_2_6/
           make test
           ./test
 
