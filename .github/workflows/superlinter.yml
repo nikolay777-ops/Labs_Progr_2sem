@@ -16,4 +16,4 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Build
         run: |
-          cd ../../ && cd Labs_Progr_2sem && echo ${GITHUB_REF##*/}
+          cd ../../ && cd Labs_Progr_2sem && echo ${GITHUB_REF##*/} && cd Labs_Progr_2sem && ls
