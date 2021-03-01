@@ -10,7 +10,7 @@ void clear(void) {
 }
 
 float degToRad(float deg) {
-  return deg / 180.0 * 3.14;
+  return deg / 180.0 * 3.14 * 100;
 }
 
 long fact(long a) {
@@ -24,7 +24,7 @@ double sinMaclaurin(double angleRad, int n) {
   double value = 0.0;
   
   for (i = 1; i <= n; i++) {
-    value += pow(-1.0, i - 1) * pow(angleRad, 2 * i - 1) / fact(2 * i - 1);
+    value += (pow(-1.0, i - 1) * pow(angleRad, 2 * i - 1) / fact(2 * i - 1));
   }
   
   return value;
