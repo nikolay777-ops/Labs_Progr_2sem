@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Build
         run: |
-          ls -a && git clone https://github.com/aneroid11/Labs_Progr_2sem/tree/Lab2 && ls -a
+          ls -a && git clone https://github.com/aneroid11/Labs_Progr_2sem && ls -a
