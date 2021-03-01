@@ -16,4 +16,4 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Build
         run: |
-          cd ../../ && cd Labs_Progr_2sem/Labs_Progr_2sem && ls
+          cd ../../ && cd Labs_Progr_2sem/Labs_Progr_2sem && ls -a
