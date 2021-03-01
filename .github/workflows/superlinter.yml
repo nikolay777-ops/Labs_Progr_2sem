@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Build
         run: |
-          ls -a
+          cd ../../.. && ls -a
