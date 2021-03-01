@@ -64,7 +64,7 @@ int main(void) {
     }
   }
   
-  fprintf(stderr, "Cannot calculate sinus: too big number for series expansion\n");
+  fprintf(stderr, "Cannot calculate sine: too big number for series expansion\n");
   return 1;
 }
 
