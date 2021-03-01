@@ -10,7 +10,7 @@ void clear(void) {
 }
 
 float degToRad(float deg) {
-  return deg / 180.0 * 3.14 * 100;
+  return deg / 180.0 * 3.14;
 }
 
 long fact(long a) {

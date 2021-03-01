@@ -124,8 +124,8 @@ int main(void) {
   bool vehicleEntered = false;
   char choice;
 
-  double vehicleEuroCost, vehicleEngineVolume, vehicleTransportingDistance;
-  int vehicleYear;
+  double vehicleEuroCost = 0.0, vehicleEngineVolume = 0.0, vehicleTransportingDistance = 0.0;
+  int vehicleYear = 0;
 
   printIntroduction();
 
