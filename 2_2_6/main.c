@@ -58,8 +58,8 @@ int main(void) {
     sinMacl = sinMaclaurin(degToRad(degrees), i);
     
     if (fabs(sinMacl - normalSin) < error) {
-      printf("Sinus calculated by the normal function: %f\n", normalSin);
-      printf("Sinus calculated with the help of series expansion to %d: %f\n", i, sinMacl);
+      printf("Sine calculated by the normal function: %f\n", normalSin);
+      printf("Sine calculated with the help of series expansion to %d: %f\n", i, sinMacl);
       return 0;
     }
   }
