@@ -19,7 +19,3 @@ jobs:
           cd ../../2_2_6/
           make test
           ./test
-
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
