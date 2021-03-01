@@ -16,8 +16,9 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Build
         run: |
-          make test -f ./2_2_6/Makefile
-          ./2_2_6/test
+          cd 2_2_6/
+          make test
+          ./test
 
         env:
           DEFAULT_BRANCH: main
