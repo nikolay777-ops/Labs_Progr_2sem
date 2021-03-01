@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Build
         run: |
-          cd ../../.. && ls -a && find ./ -iname main.c
+          cd ../../.. && ls -a && git 
