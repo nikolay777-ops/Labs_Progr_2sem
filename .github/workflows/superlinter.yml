@@ -19,5 +19,3 @@ jobs:
           cd ../../
           cd Labs_Progr_2sem
           ls
-          make test
-          ./test
