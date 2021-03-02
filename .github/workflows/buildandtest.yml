@@ -1,4 +1,4 @@
-name: Super-Linter
+name: build-and-test
 
 # Run this workflow every time a new commit pushed to your repository
 on: push
@@ -6,16 +6,17 @@ on: push
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  super-lint:
+  buildandtest:
     # Name the Job
-    name: Build the program
+    name: Build and test the program
     # Set the type of machine to run on
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
       - name: Build
         run: |
-          git clone -b Lab2 --single-branch https://github.com/aneroid11/Labs_Progr_2sem && cd Labs_Progr_2sem/2_2_6/ 
           make test 
           ./test
           cd ../2_1_10  
