@@ -15,5 +15,10 @@ jobs:
     steps:
       - name: Build
         run: |
-          git clone -b Lab2 --single-branch https://github.com/aneroid11/Labs_Progr_2sem && cd Labs_Progr_2sem/2_2_6/ && make test && ls && ./test
-          cd ../2_1_10 && make test && ./test < text_test.txt
+          git clone -b Lab2 --single-branch https://github.com/aneroid11/Labs_Progr_2sem 
+          cd Labs_Progr_2sem/2_2_6/ 
+          make test 
+          ./test
+          cd ../2_1_10  
+          make test 
+          ./test < text_test.txt
