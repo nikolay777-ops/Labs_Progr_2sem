@@ -15,11 +15,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       
-      - name: Build
+      - name: Build and test
         run: |
-          cd 2_2_6/
+          cd Lab3
           make test 
           ./test
-          cd ../2_1_10  
-          make test 
-          ./test < text_test.txt
