@@ -17,6 +17,6 @@ jobs:
       
       - name: Build and test
         run: |
-          cd Lab3
+          cd lab4/4_1
           make test 
           ./test
