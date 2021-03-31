@@ -20,3 +20,6 @@ jobs:
           cd lab4/4_1
           make test 
           ./test
+          cd ../4_2
+          make test
+          ./test
