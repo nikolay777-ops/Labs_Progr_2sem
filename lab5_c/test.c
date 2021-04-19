@@ -81,6 +81,10 @@ void test_merge_sorted_queues_to_list() {
     assert(el->data == 100);
     assert(bl->next->next->data == 8);
     assert(el->prev->prev->data == 70);
+
+    clear(bq1);
+    clear(bq2);
+    clear(bl);
 }
 
 #undef main
