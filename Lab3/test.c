@@ -5,10 +5,12 @@
 figure** init_test_board() {
   int i, j;
   
-  assert(figure** test_board = malloc(sizeof(figure*) * 8));
+  figure** test_board = malloc(sizeof(figure*) * 8);
+  assert(test_board);
   
   for (i = 0; i < 8; i++) {
-    assert(test_board[i] = malloc(sizeof(figure) * 8));
+    test_board[i] = malloc(sizeof(figure) * 8);
+    assert(test_board[i]);
   }
   
   for (i = 0; i < 8; i++) {
