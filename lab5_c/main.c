@@ -165,12 +165,16 @@ int main() {
     create_random_ordered_queue(&queue_begin1, &queue_end1, 40);
     create_random_ordered_queue(&queue_begin2, &queue_end2, 30);
 
+    puts("The first ordered queue: ");
     print_queue(queue_end1);
+    puts("\nThe second ordered queue: ");
     print_queue(queue_end2);
 
     merge_sorted_queues_to_list(&queue_begin1, &queue_end1, &queue_begin2, &queue_end2, &list_begin, &list_end);
 
+    puts("\nMerged ordered list: ");
     print_list(list_begin);
+    puts("");
 
     clear(list_begin);
     clear(queue_begin1);

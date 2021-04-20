@@ -6,7 +6,8 @@ void test_create_random_ordered_queue() {
     item* begin = NULL, * end = NULL;
     create_random_ordered_queue(&begin, &end, 40);
 
-    for (item* i = begin; i; i = i->next) {
+    item* i;
+    for (i = begin; i; i = i->next) {
         if (i->prev) {
             assert(i->prev->data >= i->data);
         }
