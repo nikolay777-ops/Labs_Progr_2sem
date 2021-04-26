@@ -40,8 +40,7 @@ void add_node_to_tree(tree_node** root, tree_node* new_node) {
         *root = new_node;
         return;
     }
-    // если меньше - влево.
-    // если больше - вправо.
+    
     if (new_node->data > (*root)->data) {
         if (!(*root)->right) {
             (*root)->right = new_node;
