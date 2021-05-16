@@ -16,15 +16,17 @@ typedef struct {
     char specialists_comments[300];
 } crime;
 
+void* create_crime(const char* place, const char* aftermath, const char* comments, list* participants);
 void* create_participant(const char* name);
 void* create_participant_copy(const char* p);
-void* create_crime(const char* place, const char* aftermath, const char* comments, list* participants);
-void delete_crime(crime* cr);
 crime* create_crime_copy(crime* cr);
+void delete_crime(crime *cr);
 crime* read_crime_from_user();
+crime* read_crime(FILE* fin);
 list* read_crimes(const char* filename);
 list* read_crimes_file(FILE* fin);
 void write_crimes(list* crimes, const char* filename);
+void write_crime(crime* cr, FILE* fout, bool end);
 void write_crimes_file(list* crimes, FILE* fout);
 void print_crime(crime* cr);
 

@@ -19,6 +19,7 @@ typedef struct {
 void* create_organization(char name[], char direction[], int danger_level);
 organization* create_organization_copy(organization* org);
 void print_organization(organization* org);
+organization* read_organization(FILE* fin);
 organization* read_organization_from_user();
 list* read_organizations(const char* filename);
 list* read_organizations_file(FILE* fin);

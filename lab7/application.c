@@ -14,17 +14,17 @@ static list* archive_of_criminals = NULL;
 static list* organizations = NULL;
 
 void load_data() {
-    crimes = read_crimes("../interpol/crimes.txt");
-    organizations = read_organizations("../interpol/organizations.txt");
-    criminals = read_criminals("../interpol/criminals.txt");
-    archive_of_criminals = read_criminals("../interpol/archive_criminals.txt");
+    crimes = read_crimes("crimes.txt");
+    organizations = read_organizations("organizations.txt");
+    criminals = read_criminals("criminals.txt");
+    archive_of_criminals = read_criminals("archive_criminals.txt");
 }
 
 void write_data_in_files() {
-    write_crimes(crimes, "../interpol/crimes.txt");
-    write_criminals(criminals, "../interpol/criminals.txt");
-    write_criminals(archive_of_criminals, "../interpol/archive_criminals.txt");
-    write_organizations(organizations, "../interpol/organizations.txt");
+    write_crimes(crimes, "crimes.txt");
+    write_criminals(criminals, "criminals.txt");
+    write_criminals(archive_of_criminals, "archive_criminals.txt");
+    write_organizations(organizations, "organizations.txt");
 }
 
 void free_data() {

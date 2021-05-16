@@ -23,11 +23,11 @@ typedef struct {
     creating_copy_func create_copy_item_data;
 } list;
 
-list* create_list(size_t data_size, deleting_item_data_func delete_item, creating_copy_func create_copy_item_data);
-list* create_list_copy(list* other);
-void delete_list(list* lst);
-void push_front(list* lst, void* data);
+list* create_list(size_t data_size, deleting_item_data_func delete_item_data, creating_copy_func create_copy_item_data);
+list* create_list_copy(list *other);
+void delete_list(list* l);
 void pop_front(list* lst);
+void push_front(list* lst, void* data);
 void pop_back(list* lst);
 void push_back(list* lst, void* data);
 void insert(list* lst, item* prev, void* data);

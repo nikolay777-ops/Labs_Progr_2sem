@@ -24,6 +24,9 @@ typedef struct {
     list* organizations;
 } criminal;
 
+void check_criminal_data(const char* name, const char* nickname, const char* citizenship, const char* hair_color,
+                         const char* languages, const char* special_signs, float height_cm, float weight_kg, 
+                         const char* kind_of_crimes, list* crimes);
 void* create_criminal(const char* name, const char* nickname, const char* citizenship, const char* hair_color,
                       const char* languages, const char* special_signs, float height_cm, float weight_kg, 
                       const char* kind_of_crimes, list* crimes, list* organizations);
@@ -31,10 +34,12 @@ criminal* create_criminal_copy(criminal* cr);
 void delete_criminal(criminal* cr);
 void print_criminal(criminal* cr);
 void print_criminal_name(criminal* cr);
+criminal* read_criminal(FILE* fin);
 criminal* read_criminal_from_user();
+list* read_criminals_file(FILE* fin) ;
 list* read_criminals(const char* filename);
-void write_criminals(list* criminals, const char* filename);
 void write_criminal(criminal* cr, FILE* fout, bool end);
+void write_criminals(list* criminals, const char* filename);
 void write_criminals_file(list* criminals, FILE* fout);
 
 #endif // CRIMINAL_H
