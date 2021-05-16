@@ -10,21 +10,6 @@
 
 // list testing ////////////////////////////////////
 
-/*
- * list* create_list(size_t data_size, deleting_item_data_func delete_item_data, creating_copy_func create_copy_item_data);
-list* create_list_copy(list *other);
-void delete_list(list* l);
-void pop_front(list* lst);
-void push_front(list* lst, void* data);
-void pop_back(list* lst);
-void push_back(list* lst, void* data);
-void insert(list* lst, item* prev, void* data);
-void erase(list* lst, item* prev);
-void* get_by_index(list* lst, int i);
-item* get_item_by_index(list* lst, int i);
-int num_items(list* lst);
- * */
-
 void* create_int(int a) {
     int* ptr = malloc(sizeof(int));
     *ptr = a;
@@ -175,6 +160,44 @@ void test_erase() {
 
 // end of list testing /////////////////////////////
 
+// check testing ///////////////////////////////////
+// I don't know how to test error(), check_mem_alloc(), clear() and check()
+
+void test_fgets_without_newline() {
+    FILE* estream = fopen("test_text.txt", "w");
+    fputs("example example\n\n\n\n\n", estream);
+    fclose(estream);
+    
+    estream = fopen("test_text.txt", "r");
+    char str[200];
+    fgets_without_newline(str, 200, estream);
+    fclose(estream);
+    
+    assert(str[strlen(str) - 1] != '\n');
+    remove("test_text.txt");
+}
+
+void test_fputs_with_newline() {
+    FILE* estream = fopen("test_text.txt", "w");
+    fputs_with_newline("mda", estream);
+    fclose(estream);
+    
+    estream = fopen("test_text.txt", "r");
+    fgetc(estream); fgetc(estream); fgetc(estream);
+    assert(fgetc(estream) == '\n');
+    fclose(estream);
+    
+    remove("test_text.txt");
+}
+
+void test_tolower_str() {
+    char str[200] = "WHERE BANANA";
+    tolower_str(str);
+    assert(!strcmp(str, "where banana"));
+}
+
+// end of check testing ////////////////////////////
+
 #undef main
 int main() {
     test_create_push_delete_list();
@@ -187,6 +210,10 @@ int main() {
     test_pop_front();
     test_insert();
     test_erase();
+    
+    test_fgets_without_newline();
+    test_fputs_with_newline();
+    test_tolower_str();
     
     puts("All tests passed");
     
