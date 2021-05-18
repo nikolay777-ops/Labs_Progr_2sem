@@ -24,11 +24,13 @@ menu* create_menu(list* functions, list* puncts) {
     return m;
 }
 
+// LCOV_EXCL_START
 void delete_menu(menu* m) {
     delete_list(m->functions);
     delete_list(m->puncts);
     free(m);
 }
+// LCOV_EXCL_STOP
 
 void execute_menu(menu* m) {
     while (true) {

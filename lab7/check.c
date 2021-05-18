@@ -1,5 +1,7 @@
 #include "check.h"
 
+// LCOV_EXCL_START
+
 void error(const char* msg) {
     fprintf(stderr, "Error: %s\n", msg);
     exit(EXIT_FAILURE);
@@ -19,14 +21,20 @@ void check_mem_alloc(void* data) {
     }
 }
 
+// LCOV_EXCL_STOP
+
 void fgets_without_newline(char* dest, int n, FILE* fin) {
     fgets(dest, n, fin);
     dest[strcspn(dest, "\n")] = '\0';
 }
 
+// LCOV_EXCL_START
+
 void clear() {
     while (getchar() != '\n');
 }
+
+// LCOV_EXCL_STOP
 
 void tolower_str(char* str) {
     while (*str) {

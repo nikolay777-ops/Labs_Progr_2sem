@@ -39,10 +39,12 @@ crime* create_crime_copy(crime* cr) {
     return copy;
 }
 
+// LCOV_EXCL_START
 void delete_crime(crime *cr) {
     delete_list(cr->participants);
     free(cr);
 }
+// LCOV_EXCL_STOP
 
 crime* read_crime_from_user() {
     crime* new_crime = (crime*)malloc(sizeof(crime));

@@ -1,5 +1,6 @@
 #include "criminal.h"
 
+// LCOV_EXCL_START
 void check_criminal_data(const char* name, const char* nickname, const char* citizenship, const char* hair_color,
                          const char* languages, const char* special_signs, float height_cm, float weight_kg, 
                          const char* kind_of_crimes, list* crimes) {
@@ -14,6 +15,7 @@ void check_criminal_data(const char* name, const char* nickname, const char* cit
     check("kind of crimes", strlen(kind_of_crimes) >= 50);
     check("crimes", crimes == NULL);
 }
+// LCOV_EXCL_STOP
 
 void* create_criminal(const char* name, const char* nickname, const char* citizenship, const char* hair_color,
                       const char* languages, const char* special_signs, float height_cm, float weight_kg, 

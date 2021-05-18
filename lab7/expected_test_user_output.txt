@@ -1,0 +1,1200 @@
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+1
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+1
+
+
+
+--------------------------
+The list of crimes:
+--------------------------
+
+
+
+------------------------------------
+Place: Nodnol
+Participants:
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse number 2
+Specialists' comments:
+The Gordlsiokfod: This was some blin number 2
+------------------------------------
+------------------------------------
+Place: Gogogoh
+Participants:
+Freddi
+Dreddi
+Shreddi
+Mreddi
+Aftermath:
+Bad
+Specialists' comments:
+The Gordean: Bad. AIF: Bad.
+------------------------------------
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+2
+
+
+
+--------------------------
+The list of criminals:
+--------------------------
+
+
+
+----------------------------------
+Nonono, aka Lololo
+Kind of crimes: apocalyptic
+Height: 150.000000 cm
+Weight: 60.000000 kg
+Blue hair color
+Citizenship: Hohoho (Santa)
+Special signs: Blue hair is slighlty red
+Languages: Dog, penguin
+--------------------------
+Crimes:
+------------------------------------
+Place: London
+Participants:
+Nonono
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse
+Specialists' comments:
+The Gordlsiokfod: This was some blin
+------------------------------------
+Is listed in these organizations:
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+----------------------------------
+----------------------------------
+f, aka f
+Kind of crimes: f
+Height: 200.000000 cm
+Weight: 100.000000 kg
+f hair color
+Citizenship: f
+Special signs: f
+Languages: f
+--------------------------
+Crimes:
+------------------------------------
+Place: f
+Participants:
+f
+Aftermath:
+f
+Specialists' comments:
+f
+------------------------------------
+Is listed in these organizations:
+----------------------------------
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+3
+
+
+
+--------------------------
+The list of organizations:
+--------------------------
+
+
+
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+-------------------------
+ojoj gro
+Direction:
+ojojing
+Danger level: 1
+-------------------------
+-------------------------
+ojoj gro 5
+Direction:
+ojoing
+Danger level: 8
+-------------------------
+-------------------------
+Gofkos
+Direction:
+Gofking
+Danger level: 10
+-------------------------
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+4
+
+
+
+
+1: Search by place
+2: Search by aftermath
+3: Search by specialists' comments
+4: Search by participants
+0. Back
+1
+
+
+
+
+Enter the place: 
+p
+
+
+
+
+1: Search by place
+2: Search by aftermath
+3: Search by specialists' comments
+4: Search by participants
+0. Back
+2
+
+
+
+
+Enter the aftermath: 
+a
+------------------------------------
+Place: Nodnol
+Participants:
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse number 2
+Specialists' comments:
+The Gordlsiokfod: This was some blin number 2
+------------------------------------
+------------------------------------
+Place: Gogogoh
+Participants:
+Freddi
+Dreddi
+Shreddi
+Mreddi
+Aftermath:
+Bad
+Specialists' comments:
+The Gordean: Bad. AIF: Bad.
+------------------------------------
+
+
+
+
+1: Search by place
+2: Search by aftermath
+3: Search by specialists' comments
+4: Search by participants
+0. Back
+3
+
+
+
+
+Enter the comments: 
+c
+
+
+
+
+1: Search by place
+2: Search by aftermath
+3: Search by specialists' comments
+4: Search by participants
+0. Back
+4
+
+
+
+
+Enter the participants. Enter '-' to stop: 
+-
+
+
+
+
+1: Search by place
+2: Search by aftermath
+3: Search by specialists' comments
+4: Search by participants
+0. Back
+0
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+5
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+1
+
+
+
+
+Enter the name: 
+g
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+2
+
+
+
+
+Enter the nickname: 
+f
+----------------------------------
+f, aka f
+Kind of crimes: f
+Height: 200.000000 cm
+Weight: 100.000000 kg
+f hair color
+Citizenship: f
+Special signs: f
+Languages: f
+--------------------------
+Crimes:
+------------------------------------
+Place: f
+Participants:
+f
+Aftermath:
+f
+Specialists' comments:
+f
+------------------------------------
+Is listed in these organizations:
+----------------------------------
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+3
+
+
+
+
+Enter the criminal's citizenship: 
+c
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+4
+
+
+
+
+Enter the hair color: 
+a
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+5
+
+
+
+
+Enter the minimum and maximum height (in cm) of the criminal: 
+120 180
+----------------------------------
+Nonono, aka Lololo
+Kind of crimes: apocalyptic
+Height: 150.000000 cm
+Weight: 60.000000 kg
+Blue hair color
+Citizenship: Hohoho (Santa)
+Special signs: Blue hair is slighlty red
+Languages: Dog, penguin
+--------------------------
+Crimes:
+------------------------------------
+Place: London
+Participants:
+Nonono
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse
+Specialists' comments:
+The Gordlsiokfod: This was some blin
+------------------------------------
+Is listed in these organizations:
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+----------------------------------
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+6
+
+
+
+
+Enter the minimum and maximum weight (in kg) of the criminal: 
+60 90
+----------------------------------
+Nonono, aka Lololo
+Kind of crimes: apocalyptic
+Height: 150.000000 cm
+Weight: 60.000000 kg
+Blue hair color
+Citizenship: Hohoho (Santa)
+Special signs: Blue hair is slighlty red
+Languages: Dog, penguin
+--------------------------
+Crimes:
+------------------------------------
+Place: London
+Participants:
+Nonono
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse
+Specialists' comments:
+The Gordlsiokfod: This was some blin
+------------------------------------
+Is listed in these organizations:
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+----------------------------------
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+7
+
+
+
+
+Enter the special signs: 
+s
+----------------------------------
+Nonono, aka Lololo
+Kind of crimes: apocalyptic
+Height: 150.000000 cm
+Weight: 60.000000 kg
+Blue hair color
+Citizenship: Hohoho (Santa)
+Special signs: Blue hair is slighlty red
+Languages: Dog, penguin
+--------------------------
+Crimes:
+------------------------------------
+Place: London
+Participants:
+Nonono
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse
+Specialists' comments:
+The Gordlsiokfod: This was some blin
+------------------------------------
+Is listed in these organizations:
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+----------------------------------
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+8
+
+
+
+
+Enter the criminal's languages: 
+l
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+9
+
+
+
+
+Enter the kind of crimes: 
+k
+
+
+
+
+1: Search by name
+2: Search by nickname
+3: Search by citizenship
+4: Search by hair color
+5: Search by height
+6: Search by weight
+7: Search by special signs
+8: Search by languages
+9: Search by kind of crimes
+0. Back
+0
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+6
+
+
+
+
+1: Search by name
+2: Search by direction
+3: Search by danger level
+0. Back
+1
+
+
+
+
+Enter the name of the organization: 
+jojo org
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+
+
+
+
+1: Search by name
+2: Search by direction
+3: Search by danger level
+0. Back
+2
+
+
+
+
+Enter the direction of the organization: 
+jo
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+-------------------------
+ojoj gro
+Direction:
+ojojing
+Danger level: 1
+-------------------------
+-------------------------
+ojoj gro 5
+Direction:
+ojoing
+Danger level: 8
+-------------------------
+
+
+
+
+1: Search by name
+2: Search by direction
+3: Search by danger level
+0. Back
+3
+
+
+
+
+Enter the minimum and maximum danger level of the organization: 
+1 10
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+-------------------------
+ojoj gro
+Direction:
+ojojing
+Danger level: 1
+-------------------------
+-------------------------
+ojoj gro 5
+Direction:
+ojoing
+Danger level: 8
+-------------------------
+-------------------------
+Gofkos
+Direction:
+Gofking
+Danger level: 10
+-------------------------
+
+
+
+
+1: Search by name
+2: Search by direction
+3: Search by danger level
+0. Back
+0
+
+
+
+
+1: View crimes
+2: View criminals
+3: View organizations
+4: Search crimes
+5: Search criminals
+6: Search organizations
+0. Back
+0
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+2
+
+
+
+
+Enter the name of the organization: 
+h
+---------------------------------
+Criminals that are listed in this organization
+---------------------------------
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+3
+
+
+
+
+Where the crime was?
+l
+---------------------------------------------
+Maybe that was one of the next criminals
+---------------------------------------------
+----------------------------------
+Nonono, aka Lololo
+Kind of crimes: apocalyptic
+Height: 150.000000 cm
+Weight: 60.000000 kg
+Blue hair color
+Citizenship: Hohoho (Santa)
+Special signs: Blue hair is slighlty red
+Languages: Dog, penguin
+--------------------------
+Crimes:
+------------------------------------
+Place: London
+Participants:
+Nonono
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse
+Specialists' comments:
+The Gordlsiokfod: This was some blin
+------------------------------------
+Is listed in these organizations:
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+----------------------------------
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+4
+
+
+
+
+index: 1
+----------------------------------
+Nonono, aka Lololo
+----------------------------------
+
+
+index: 2
+----------------------------------
+f, aka f
+----------------------------------
+
+
+Please enter the index of the criminal you want to archive: 
+1
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+5
+
+
+
+
+index: 1
+----------------------------------
+f, aka f
+----------------------------------
+
+
+Please enter the index of the criminal you want to delete: 
+1
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+6
+1: View the archive
+2: Restore a criminal
+0. Back
+1
+
+
+
+
+The archive:
+
+----------------------------------
+Nonono, aka Lololo
+----------------------------------
+
+
+
+
+1: View the archive
+2: Restore a criminal
+0. Back
+2
+
+
+
+
+The archive:
+
+index: 1
+----------------------------------
+Nonono, aka Lololo
+----------------------------------
+
+
+Please enter the index of the criminal you want to restore: 
+1
+
+
+
+
+1: View the archive
+2: Restore a criminal
+0. Back
+0
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+7
+
+
+
+
+Enter the data about the crime:
+Enter the crime place: 
+a
+Enter the participants of the crime. Enter '-' to stop:
+a
+-
+Enter the aftermath of the crime:
+a
+Enter the specialists' comments:
+a
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+8
+
+
+
+
+Enter data about the organization:
+Enter the name of the organization:
+a
+a
+Enter the direction of the organization:
+dir
+Enter the danger level of the organization: 
+3
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+9
+
+
+
+
+Enter the name of the criminal:
+a
+Enter the nickname of the criminal:
+a
+Enter the height of the criminal (in cm, from 110.000000 to 250.000000):
+180
+Enter the weight of the criminal (in kg, from 30.000000 to 200.000000):
+80
+Enter the hair color of the criminal:
+h
+Enter the special signs of the criminal:
+s
+Enter the citizenship of the criminal:
+c
+Enter the languages of the criminal:
+l
+Enter the criminal's kind of crimes:
+k
+Enter the crimes:
+Enter the data about the crime:
+Enter the crime place: 
+p
+Enter the participants of the crime. Enter '-' to stop:
+p
+-
+Enter the aftermath of the crime:
+a
+Enter the specialists' comments:
+s
+Do you want to stop? (y/n)
+y
+Is the criminal listed in some organizations? (y/n)
+n
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+10
+
+
+
+
+index: 1
+------------------------------------
+Place: Nodnol
+Participants:
+Jojokololo
+Fokorotolo
+Aftermath:
+Some apocalypse number 2
+Specialists' comments:
+The Gordlsiokfod: This was some blin number 2
+------------------------------------
+
+
+index: 2
+------------------------------------
+Place: Gogogoh
+Participants:
+Freddi
+Dreddi
+Shreddi
+Mreddi
+Aftermath:
+Bad
+Specialists' comments:
+The Gordean: Bad. AIF: Bad.
+------------------------------------
+
+
+index: 3
+------------------------------------
+Place: a
+Participants:
+a
+Aftermath:
+a
+Specialists' comments:
+a
+------------------------------------
+
+
+Please enter the index of the crime you want to delete: 
+3
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+11
+
+
+
+
+index: 1
+-------------------------
+jojo org
+Direction:
+jojoing
+Danger level: 10
+-------------------------
+
+
+index: 2
+-------------------------
+ojoj gro
+Direction:
+ojojing
+Danger level: 1
+-------------------------
+
+
+index: 3
+-------------------------
+ojoj gro 5
+Direction:
+ojoing
+Danger level: 8
+-------------------------
+
+
+index: 4
+-------------------------
+Gofkos
+Direction:
+Gofking
+Danger level: 10
+-------------------------
+
+
+index: 5
+-------------------------
+a
+Direction:
+dir
+Danger level: 3
+-------------------------
+
+
+Please enter the index of the organization you want to delete: 
+5
+
+
+
+
+1: View and search
+2: Make connections between criminals and organizations
+3: Who could do this?
+4: Archive criminals
+5: Delete criminals
+6: Work with the archive of criminals
+7: Add a crime
+8: Add an organization
+9: Add a criminal
+10: Delete a crime
+11: Delete an organization
+0. Back
+0
